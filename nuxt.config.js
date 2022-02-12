@@ -54,5 +54,9 @@ export default {
         implementation: require('sass'),
       },
     },
+  },
+  target: 'static',
+  router: {
+    base: 'bodyandsoulcampyarn deploy'
   }
 }
