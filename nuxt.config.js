@@ -59,7 +59,5 @@ export default {
   static:{
     prefix: false
   },
-  router: {
-    base: '/bodyandsoulcamp'
-  }
+
 }
