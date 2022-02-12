@@ -20,11 +20,16 @@ export default {
   components: { Program },
   props: {
     title: { type: String, default: "", required: false },
-    image: { type: String, default: "yoga", required: false },
     description: { type: String, default: "", required: false },
     program: { type: Boolean, default: false, required: false },
     programTitle: { type: String, default: "", required: false },
-    programList: { type: Array, default: [], required: false },
+    programList: {
+      type: Array,
+      default: () => {
+        [];
+      },
+      required: false,
+    },
     side: { type: String, default: "left", required: false },
   },
   data() {
@@ -112,6 +117,7 @@ export default {
     }
     &__program {
       width: 50%;
+      height: 100vh;
     }
   }
 }

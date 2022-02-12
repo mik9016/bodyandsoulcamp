@@ -47,6 +47,7 @@ export default {
 @media screen and (min-width: v.$large) {
   .program-component {
     height: 100%;
+    width: 50%;
     ul {
 
       li {
