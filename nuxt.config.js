@@ -56,7 +56,7 @@ export default {
     },
   },
   target: 'static',
-  router: {
-    base: '/bodyandsoulcamp'
-  }
+  // router: {
+  //   base: '/bodyandsoulcamp'
+  // }
 }
