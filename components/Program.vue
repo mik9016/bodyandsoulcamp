@@ -48,7 +48,7 @@ export default {
   .program-component {
     height: 100%;
     ul {
-  
+
       li {
         font-size: 1.5rem;
   
