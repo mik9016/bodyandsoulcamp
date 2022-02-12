@@ -57,6 +57,6 @@ export default {
   },
   target: 'static',
   router: {
-    base: 'bodyandsoulcampyarn deploy'
+    base: 'bodyandsoulcamp'
   }
 }
