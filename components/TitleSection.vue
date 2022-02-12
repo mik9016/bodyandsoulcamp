@@ -2,7 +2,7 @@
   <div class="title-section">
     <div class="title-section__image">
       <img
-        src="../static/assets/images/fit7.jpg"
+        src="~/static/assets/images/fit7.jpg"
         alt="landingPhoto"
         width="100%"
         height="100%"

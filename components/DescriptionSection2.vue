@@ -98,13 +98,14 @@ export default {
     width: 100%;
 
     &__text {
-      height: 100%;
+      height: 100vh;
       width: 50%;
       p {
         font-size: 1.3rem;
       }
     }
     &__title {
+      height: 100vh;
       width: 50%;
       font-size: 5rem;
       flex-direction: var(--side);

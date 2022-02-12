@@ -2,7 +2,7 @@
   <div class="contact-section">
     <div class="contact-section__image">
       <img
-        src="../static/assets/images/vert.jpg"
+        src="~/static/assets/images/vert.jpg"
         alt="landingPhoto"
         width="100%"
         height="100%"
