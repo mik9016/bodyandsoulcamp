@@ -56,8 +56,5 @@ export default {
     },
   },
   target: 'static',
-  static:{
-    prefix: false
-  },
 
 }
